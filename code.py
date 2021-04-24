@@ -1,8 +1,8 @@
 import re
 
-file1="/home/bharath/Rachana V/inputfile.txt"
-file2="/home/bharath/Rachana V/inputfile2.txt"
-file3="/home/bharath/Rachana V/inputfile3.txt"
+file1="/home/Rachana V/inputfile.txt"
+file2="/home/Rachana V/inputfile2.txt"
+file3="/home/Rachana V/inputfile3.txt"
 
 def Employees(file):
     b=[]
@@ -35,7 +35,7 @@ def Employees(file):
         D.append(str1)
         str1=""
     print(D)
-    file2=open("/home/bharath/Rachana V/sample_output.txt","a")
+    file2=open("/home/Rachana V/sample_output.txt","a")
     file2.write("The goodies selected for distribution are \n")
     for y in D:
         file2.write(y)
